@@ -13,4 +13,6 @@ void replace_spaces(std::string& str, int size);
 
 bool is_palindrom(const std::string& str, bool ignore_space = true, bool ignore_case = true);
 
+bool is_modifiable(std::string s1, std::string s2);
+
 #endif  // CHAPTER_1_H_
