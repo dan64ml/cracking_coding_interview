@@ -9,6 +9,9 @@ find_package(GTest REQUIRED)
 
 include_directories("include")
 
+# TODO: Add clang support
+add_compile_options(-Wall -Wextra)
+
 add_subdirectory(src/01_arrays_strings/)
 
 set(TEST_SOURCES)
