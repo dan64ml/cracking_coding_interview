@@ -2,6 +2,7 @@
 #define CHAPTER_1_H_
 
 #include <string>
+#include <vector>
 
 bool is_unique_1(const std::string& str);
 bool is_unique_2(std::string str);
@@ -16,5 +17,7 @@ bool is_palindrom(const std::string& str, bool ignore_space = true, bool ignore_
 bool is_modifiable(std::string s1, std::string s2);
 
 std::string compress(const std::string& str);
+
+void rotate90(std::vector<std::vector<int>>& vec);
 
 #endif  // CHAPTER_1_H_
