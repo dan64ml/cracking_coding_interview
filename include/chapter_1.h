@@ -15,4 +15,6 @@ bool is_palindrom(const std::string& str, bool ignore_space = true, bool ignore_
 
 bool is_modifiable(std::string s1, std::string s2);
 
+std::string compress(const std::string& str);
+
 #endif  // CHAPTER_1_H_
