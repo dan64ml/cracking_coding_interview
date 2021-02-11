@@ -7,5 +7,6 @@ add_library(chapter_1
     problem_6.cpp
     problem_7.cpp
     problem_8.cpp
+    problem_9.cpp
 )
 

@@ -22,4 +22,6 @@ void rotate90(std::vector<std::vector<int>>& vec);
 
 void replace_zeros(std::vector<std::vector<int>>& m);
 
+bool is_shifted(const std::string& s1, const std::string& s2);
+
 #endif  // CHAPTER_1_H_
