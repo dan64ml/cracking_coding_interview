@@ -20,4 +20,6 @@ std::string compress(const std::string& str);
 
 void rotate90(std::vector<std::vector<int>>& vec);
 
+void replace_zeros(std::vector<std::vector<int>>& m);
+
 #endif  // CHAPTER_1_H_

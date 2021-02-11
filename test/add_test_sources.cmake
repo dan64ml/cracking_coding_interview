@@ -6,4 +6,5 @@ list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_4.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_5.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_6.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_7.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_8.cpp")
 
