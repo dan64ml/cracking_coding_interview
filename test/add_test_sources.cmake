@@ -9,3 +9,8 @@ list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_7.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_8.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_1_PATH}/test_problem_9.cpp")
 
+set(CHAPTER_2_PATH test/02_linked_list)
+list(APPEND TEST_SOURCES "${CHAPTER_2_PATH}/test_useful.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_2_PATH}/test_problem_1.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_2_PATH}/test_problem_2.cpp")
+
