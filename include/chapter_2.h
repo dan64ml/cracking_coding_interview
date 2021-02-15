@@ -16,5 +16,7 @@ Node* create_llist(std::initializer_list<int> l);
 
 Node* remove_duplicate(Node* node);
 int get_kth(Node* head, int k);
+void delete_node(Node* node);
+Node* regroup(Node* node, int border);
 
 #endif  // CHAPTER_2_H_
