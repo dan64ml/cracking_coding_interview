@@ -28,4 +28,6 @@ Node* sum_list_forward_1(Node* lst1, Node* lst2);
 
 bool is_palindrom(Node* lst);
 
+Node* is_intersect(Node* lst1, Node* lst2);
+
 #endif  // CHAPTER_2_H_
