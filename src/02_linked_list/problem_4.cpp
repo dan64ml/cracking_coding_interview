@@ -5,8 +5,6 @@
 
 #include "chapter_2.h"
 
-#include <limits>
-
 using namespace std;
 
 // Общая идея - элементы меньшие граничного значения вставляем в голову нового списка,
