@@ -70,16 +70,6 @@ Node* sum_list_forward(Node* lst1, Node* lst2) {
 // Из академического интереса рекурсивное решение. Списки придется сделать одной длины, соответственно
 // придется выяснить длину каждого. Сложность останется O(N), но явно вырастет постоянный множитель.
 // Рекурсия потребует O(N) памяти.
-int get_size(Node* lst) {
-    int size = 0;
-    while (lst) {
-        ++size;
-        lst = lst->pNext;
-    }
-
-    return size;
-}
-
 Node* expand_with_zeros(Node* lst, int count) {
     Node* current = lst;
 

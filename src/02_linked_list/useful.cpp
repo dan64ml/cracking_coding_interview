@@ -15,3 +15,13 @@ Node* create_llist(initializer_list<int> l) {
 
     return head.pNext;
 }
+
+int get_size(Node* lst) {
+    int size = 0;
+    while (lst) {
+        ++size;
+        lst = lst->pNext;
+    }
+
+    return size;
+}

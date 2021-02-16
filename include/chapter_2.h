@@ -12,7 +12,7 @@ struct Node {
 };
 
 Node* create_llist(std::initializer_list<int> l);
-
+int get_size(Node* lst);
 
 Node* remove_duplicate(Node* node);
 
@@ -25,5 +25,7 @@ Node* regroup(Node* node, int border);
 Node* sum_list_reverse(Node* lst1, Node* lst2);
 Node* sum_list_forward(Node* lst1, Node* lst2);
 Node* sum_list_forward_1(Node* lst1, Node* lst2);
+
+bool is_palindrom(Node* lst);
 
 #endif  // CHAPTER_2_H_
