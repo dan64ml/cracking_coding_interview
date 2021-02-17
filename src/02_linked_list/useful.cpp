@@ -25,3 +25,16 @@ int get_size(Node* lst) {
 
     return size;
 }
+
+Node* find_tail(Node* lst) {
+    if (!lst) {
+        return nullptr;
+    }
+
+    auto tail = lst;
+    while (tail->pNext) {
+        tail = tail->pNext;
+    }
+
+    return tail;
+}

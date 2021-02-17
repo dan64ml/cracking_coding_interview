@@ -13,6 +13,7 @@ struct Node {
 
 Node* create_llist(std::initializer_list<int> l);
 int get_size(Node* lst);
+Node* find_tail(Node* lst);
 
 Node* remove_duplicate(Node* node);
 
@@ -29,5 +30,7 @@ Node* sum_list_forward_1(Node* lst1, Node* lst2);
 bool is_palindrom(Node* lst);
 
 Node* is_intersect(Node* lst1, Node* lst2);
+
+Node* find_loop(Node* node);
 
 #endif  // CHAPTER_2_H_
