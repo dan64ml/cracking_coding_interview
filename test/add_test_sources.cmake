@@ -20,3 +20,7 @@ list(APPEND TEST_SOURCES "${CHAPTER_2_PATH}/test_problem_6.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_2_PATH}/test_problem_7.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_2_PATH}/test_problem_8.cpp")
 
+set(CHAPTER_3_PATH test/03_stacks_queues)
+list(APPEND TEST_SOURCES "${CHAPTER_3_PATH}/test_problem_1.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_3_PATH}/test_problem_2.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_3_PATH}/test_problem_3.cpp")
