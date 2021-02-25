@@ -6,5 +6,6 @@
 #include "../src/03_stacks_queues/problem_3.h"
 #include "../src/03_stacks_queues/problem_4.h"
 #include "../src/03_stacks_queues/problem_5.h"
+#include "../src/03_stacks_queues/problem_6.h"
 
 #endif // CHAPTER_3_H_
