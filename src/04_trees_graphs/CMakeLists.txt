@@ -1,6 +1,6 @@
-add_library(chapter_3 
+add_library(chapter_4 
 #    useful.cpp
-#    problem_1.cpp
+    problem_1.cpp
 #    problem_2.cpp
 #    problem_3.cpp
 #    problem_4.cpp

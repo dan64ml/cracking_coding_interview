@@ -14,7 +14,7 @@ add_compile_options(-Wall -Wextra)
 
 add_subdirectory(src/01_arrays_strings/)
 add_subdirectory(src/02_linked_list/)
-#add_subdirectory(src/03_stacks_queues/)
+add_subdirectory(src/04_trees_graphs/)
 
 set(TEST_SOURCES)
 include(test/add_test_sources.cmake)
@@ -25,6 +25,6 @@ target_link_libraries(cracking_coding_interview
     pthread
     chapter_1
     chapter_2
-#    chapter_3
+    chapter_4
 )
 
