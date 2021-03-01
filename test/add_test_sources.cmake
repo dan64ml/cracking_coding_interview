@@ -28,4 +28,6 @@ list(APPEND TEST_SOURCES "${CHAPTER_3_PATH}/test_problem_4.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_3_PATH}/test_problem_5.cpp")
 
 set(CHAPTER_4_PATH test/04_trees_graphs)
+list(APPEND TEST_SOURCES "${CHAPTER_4_PATH}/test_useful.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_4_PATH}/test_problem_1.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_4_PATH}/test_problem_2.cpp")
