@@ -8,6 +8,8 @@
 #include <cmath>
 #include <cassert>
 
+namespace ch03 {
+
 // Очевидное решение - разделить массив на три части и сделать поверх них три стека.
 // Минус - неоптимальное использование памяти. Несомненный плюс - скорость работы. 
 // Сложность всех операций O(1).
@@ -210,3 +212,5 @@ class DynamicStack {
         std::vector<int> stack_start_;
         std::vector<int> stack_size_;
 };
+
+} // namespace ch03

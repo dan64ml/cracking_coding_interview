@@ -6,6 +6,7 @@
 #include <vector>
 
 using namespace std;
+using namespace ch03;
 
 TEST(Ch3Problem5, Test1) {
     vector vec {1, 1, 1};

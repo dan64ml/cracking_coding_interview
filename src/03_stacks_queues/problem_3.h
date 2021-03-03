@@ -11,6 +11,8 @@
 
 using namespace std;
 
+namespace ch03 {
+
 // На реализацию класса сильно влияют требования к методу popAt(int stack).
 // Здесь он просто изымает данные из указанного подстека и удаляет его, если
 // он пуст. Сложность push() амортизированная O(1), popAt() - O(N/stack_size).
@@ -133,3 +135,5 @@ class SetOfStack2 {
         int stack_size_;
         vector<T> data_;
 };
+
+} // namespace ch03

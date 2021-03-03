@@ -5,6 +5,7 @@
 #include <vector>
 
 using namespace std;
+using namespace ch03;
 
 TEST(Ch3Problem3, S1Test1) {
     SetOfStack s(3);

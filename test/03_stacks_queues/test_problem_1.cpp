@@ -6,6 +6,7 @@
 #include <stack>
 
 using namespace std;
+using namespace ch03;
 
 TEST(Ch3Problem1, TestSize) {
     FixedStack s1(3);

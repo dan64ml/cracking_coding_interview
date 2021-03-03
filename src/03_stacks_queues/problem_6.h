@@ -7,6 +7,8 @@
 
 using namespace std;
 
+namespace ch03 {
+
 // Скучная задача... Можно конечно запилить иерархию зверей, шаблонную dequeue<Animal> 
 // и т.д... Всё O(1)
 class AnimalQueue {
@@ -54,3 +56,5 @@ class AnimalQueue {
         list<int> cats_;
         int time_stamp_ = 0;
 };
+
+} // namespace ch03

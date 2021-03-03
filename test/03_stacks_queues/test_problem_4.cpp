@@ -5,6 +5,7 @@
 #include <vector>
 
 using namespace std;
+using namespace ch03;
 
 TEST(Ch3Problem4, Test1) {
     MyQueue<int> q;

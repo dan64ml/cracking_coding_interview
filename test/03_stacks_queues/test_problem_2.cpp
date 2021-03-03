@@ -5,6 +5,7 @@
 #include <vector>
 
 using namespace std;
+using namespace ch03;
 
 TEST(Ch3Problem2, Test1) {
     MinStack<int> s;
