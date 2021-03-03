@@ -3,6 +3,7 @@
 #include "gtest/gtest.h"
 
 using namespace std;
+using namespace ch04;
 
 TEST(Ch4Useful, CreateSimpleTree) {
     auto t = CreateSimpleTree({});

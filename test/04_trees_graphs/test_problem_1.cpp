@@ -3,6 +3,7 @@
 #include "gtest/gtest.h"
 
 using namespace std;
+using namespace ch04;
 
 Graph<BFSVertex> CreateGraph1() {
     Graph<BFSVertex> gr(4);

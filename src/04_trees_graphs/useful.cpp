@@ -5,6 +5,8 @@
 
 using namespace std;
 
+namespace ch04 {
+
 void PrintInOrder(vector<int>& v, Node* n) {
     if (!n) {
         return;
@@ -59,3 +61,5 @@ Node* CreateSimpleTree(initializer_list<int> l) {
 
     return root;
 }
+
+} // namespace ch04

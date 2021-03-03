@@ -8,6 +8,8 @@
 
 using namespace std;
 
+namespace ch04 {
+
 void BFS(Graph<BFSVertex>& gr, VertexId s) {
     queue<VertexId> q;
     gr.GetVertex(s).visited = true;
@@ -36,3 +38,5 @@ bool IsReachable(Graph<BFSVertex> gr, VertexId from, VertexId to) {
     BFS(gr, from);
     return gr.GetVertex(to).visited;
 }
+
+} // namespace ch04

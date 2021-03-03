@@ -9,6 +9,8 @@
 
 using namespace std;
 
+namespace ch04 {
+
 void AddNodeToBSTree(Node* root, int key) {
     Node* parent;
 
@@ -59,3 +61,5 @@ Node* CreateBalancedTree(const vector<int>& vec) {
 
     return root;
 }
+
+} // namespace ch04

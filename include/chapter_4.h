@@ -6,6 +6,8 @@
 #include <vector>
 #include <initializer_list>
 
+namespace ch04 {
+
 struct Node {
     Node(int k) : key(k) {}
     
@@ -26,5 +28,7 @@ void BFS(Graph<BFSVertex>& gr, VertexId s);
 bool IsReachable(Graph<BFSVertex> gr, VertexId from, VertexId to);
 
 Node* CreateBalancedTree(const std::vector<int>& vec);
+
+} // namespace ch04
 
 #endif  // CHAPTER_4_H
