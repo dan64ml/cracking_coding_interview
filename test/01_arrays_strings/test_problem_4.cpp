@@ -4,6 +4,8 @@
 
 #include <string>
 
+using namespace ch01;
+
 TEST(Ch1Problem4, SpaceIgnoreCaseIgnore) {
     EXPECT_TRUE(is_palindrom(""));
     EXPECT_TRUE(is_palindrom("a b b "));

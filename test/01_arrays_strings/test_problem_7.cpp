@@ -5,6 +5,7 @@
 #include <string>
 
 using namespace std;
+using namespace ch01;
 
 TEST(Ch1Problem7, Trivial) {
     vector<vector<int>> in = {};

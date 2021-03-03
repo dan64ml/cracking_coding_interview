@@ -6,6 +6,7 @@
 #include <utility>
 
 using namespace std;
+using namespace ch01;
 
 TEST(Ch1Problem2, Permutation) {
     vector<pair<string, string>> str {{"", ""}, {"a", "a"}, {"aaaaaa", "aaaaaa"}, {"zz ssss w __", "z_s  w_zss s"},

@@ -7,6 +7,8 @@
 
 using namespace std;
 
+namespace ch01 {
+
 void rotate_helper(vector<vector<int>>& vec, int layer, int len) {
     int maxIdx = layer + len - 1;
 
@@ -27,3 +29,5 @@ void rotate90(vector<vector<int>>& vec) {
         rotate_helper(vec, i, vec.size() - 2*i);
     }
 }
+
+} // namespace ch01

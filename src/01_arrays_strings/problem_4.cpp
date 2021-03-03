@@ -9,6 +9,8 @@
 
 using namespace std;
 
+namespace ch01 {
+
 // O(size()). Возможно немного оптимизировать, но асимптотика не изменится...
 bool is_palindrom(const string& str, bool ignore_space, bool ignore_case) {
     unordered_map<string::value_type, int> counter;
@@ -38,3 +40,5 @@ bool is_palindrom(const string& str, bool ignore_space, bool ignore_case) {
 
     return true;
 }
+
+} // namespace ch01

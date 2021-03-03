@@ -9,6 +9,8 @@
 
 using namespace std;
 
+namespace ch01 {
+
 // Простая склейка строки из двух. Важно проверить одинаковость длины исходных строк.
 bool is_shifted(const string& s1, const string& s2) {
     if (s1.size() != s2.size()) {
@@ -20,3 +22,5 @@ bool is_shifted(const string& s1, const string& s2) {
 
     return (ret != string::npos);
 }
+
+} // namespace ch01

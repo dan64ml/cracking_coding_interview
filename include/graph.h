@@ -4,6 +4,8 @@
 #include <vector>
 #include <limits>
 
+namespace ch04 {
+
 using VertexId = size_t;
 const VertexId NIL = std::numeric_limits<VertexId>::max();
 
@@ -36,5 +38,7 @@ class Graph {
         std::vector<Vertex> vert_;
         std::vector<std::vector<VertexId>> edges_;
 };
+
+} // namespace ch04
 
 #endif // CCI_GRAPH_H_

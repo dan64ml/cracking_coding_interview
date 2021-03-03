@@ -4,6 +4,7 @@
 #include <vector>
 
 using namespace std;
+using namespace ch01;
 
 TEST(Ch1Problem1, EmptyString) {
     EXPECT_TRUE(is_unique_1(""));

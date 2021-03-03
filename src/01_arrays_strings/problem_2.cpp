@@ -11,6 +11,8 @@
 
 using namespace std;
 
+namespace ch01 {
+
 // Дополнительная память O(size()), сложность O(size())
 bool is_permutation_1(const string& s1, const string& s2) {
     if (s1.size() != s2.size()) {
@@ -44,3 +46,5 @@ bool is_permutation_2(string s1, string s2) {
 
     return s1 == s2;
 }
+
+} // namespace ch01

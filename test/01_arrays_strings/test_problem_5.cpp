@@ -4,6 +4,8 @@
 
 #include <string>
 
+using namespace ch01;
+
 TEST(Ch1Problem5, Test) {
     EXPECT_TRUE(is_modifiable("", " "));
     EXPECT_TRUE(is_modifiable("pale", "pale"));

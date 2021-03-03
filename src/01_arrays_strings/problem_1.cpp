@@ -11,6 +11,8 @@
 
 using namespace std;
 
+namespace ch01 {
+
 // O(size()) и по времени и по памяти. Если известен набор допустимых символов в строке
 // unordered_set можно заменить массивом, улучшив постоянный множитель. 
 bool is_unique_1(const string& str) {
@@ -39,3 +41,5 @@ bool is_unique_2(string str) {
 
     return true;
 }
+
+} // namespace ch01

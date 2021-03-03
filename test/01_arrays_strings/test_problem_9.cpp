@@ -6,6 +6,7 @@
 #include <algorithm>
 
 using namespace std;
+using namespace ch01;
 
 TEST(Ch1Problem9, Trivial) {
     string s1 = "", s2 = "";

@@ -8,6 +8,8 @@
 
 using namespace std;
 
+namespace ch01 {
+
 // Единственная хитрость - начать с конца строки. O(size()).
 void replace_spaces(string& str, int size) {
     int to_idx = str.size() - 1;
@@ -23,3 +25,5 @@ void replace_spaces(string& str, int size) {
         }
     }
 }
+
+} // namespace ch01
