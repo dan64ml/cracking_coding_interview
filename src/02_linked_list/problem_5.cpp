@@ -11,6 +11,8 @@
 
 using namespace std;
 
+namespace ch02 {
+
 // Вариантов решения множество. Для обратного порядка напрашивается "сложение в столбик",
 // главное не забыть про переносы. Сложность O(N) и память O(1).
 Node* sum_list_reverse(Node* lst1, Node* lst2) {
@@ -120,3 +122,5 @@ Node* sum_list_forward_1(Node* lst1, Node* lst2) {
 
     return next;
 }
+
+} // namespace ch02

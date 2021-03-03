@@ -8,6 +8,8 @@
 
 using namespace std;
 
+namespace ch02 {
+
 pair<bool, Node*> helper(Node* lst, int size) {
     if (size == 0) {
         return {true, lst};
@@ -36,3 +38,5 @@ bool is_palindrom(Node* lst) {
 
     return ret;
 }
+
+} // namespace ch02

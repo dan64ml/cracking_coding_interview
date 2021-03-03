@@ -3,6 +3,7 @@
 #include "gtest/gtest.h"
 
 using namespace std;
+using namespace ch02;
 
 TEST(Ch2Problem5, ReverseOrder1) {
     auto lst1 = create_llist({0, 0, 1});

@@ -5,6 +5,7 @@
 #include <unordered_map>
 
 using namespace std;
+using namespace ch02;
 
 TEST(Ch2Problem4, Trivial) {
     auto lst1 = create_llist({});

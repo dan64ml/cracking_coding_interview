@@ -7,6 +7,8 @@
 
 using namespace std;
 
+namespace ch02 {
+
 // Общая идея - элементы меньшие граничного значения вставляем в голову нового списка,
 // остальные - в хвост. Сложность O(N) и память O(1).
 Node* regroup(Node* node, int border) {
@@ -35,3 +37,5 @@ Node* regroup(Node* node, int border) {
 
     return head;
 }
+
+} // namespace ch02

@@ -3,6 +3,8 @@
 
 #include <initializer_list>
 
+namespace ch02 {
+
 struct Node {
     int value;
     Node* pNext = nullptr;
@@ -32,5 +34,7 @@ bool is_palindrom(Node* lst);
 Node* is_intersect(Node* lst1, Node* lst2);
 
 Node* find_loop(Node* node);
+
+} // namespace ch02
 
 #endif  // CHAPTER_2_H_

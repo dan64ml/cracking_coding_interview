@@ -5,6 +5,7 @@
 #include <limits>
 
 using namespace std;
+using namespace ch02;
 
 const static int ERROR_VALUE = numeric_limits<int>::min();
 

@@ -5,6 +5,7 @@
 #include <limits>
 
 using namespace std;
+using namespace ch02;
 
 TEST(Ch2Problem3, Main) {
     auto lst1 = create_llist({1, 2, 3});

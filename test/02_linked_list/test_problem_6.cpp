@@ -3,6 +3,7 @@
 #include "gtest/gtest.h"
 
 using namespace std;
+using namespace ch02;
 
 TEST(Ch2Problem6, Trivial) {
     auto lst1 = create_llist({});

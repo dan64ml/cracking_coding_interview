@@ -5,6 +5,7 @@
 #include <initializer_list>
 
 using namespace std;
+using namespace ch02;
 
 TEST(Ch2Useful, CreateLList) {
     initializer_list<int> il1 = {};

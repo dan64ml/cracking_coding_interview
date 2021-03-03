@@ -2,6 +2,8 @@
 
 #include "gtest/gtest.h"
 
+using namespace ch02;
+
 TEST(Ch2Problem1, Trivial) {
     EXPECT_NO_THROW({
         auto lst1 = create_llist({});

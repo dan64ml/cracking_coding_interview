@@ -4,6 +4,8 @@
 
 #include "chapter_2.h"
 
+namespace ch02 {
+
 // Решение без использования доппамяти. Сложность O(N^2).
 // Можно использовать unordered_set и запоминать ключи пройденных элементов.
 // При обнаружении повтора удалять узел. Тогда сложность/память O(N).
@@ -28,3 +30,5 @@ Node* remove_duplicate(Node* node) {
 
     return head.pNext;
 }
+
+} // namespace ch02

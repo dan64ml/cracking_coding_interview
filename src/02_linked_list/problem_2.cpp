@@ -8,6 +8,8 @@
 
 using namespace std;
 
+namespace ch02 {
+
 // Решение с двумя бегунками. O(N) сложность и O(1) память.
 // Авторская идея с рекурсией странна и требует O(N) памяти.
 int get_kth(Node* head, int k) {
@@ -31,3 +33,5 @@ int get_kth(Node* head, int k) {
 
     return head->value;
 }
+
+} // namespace ch02

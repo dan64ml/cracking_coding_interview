@@ -9,6 +9,8 @@
 
 using namespace std;
 
+namespace ch02 {
+
 // Список односвязный, следовательно удалить заданный узел напрямую мы не можем (не родителя)
 // Переносим в него данные из следующего узла и удаляем следующий узел. O(1).
 void delete_node(Node* node) {
@@ -18,3 +20,5 @@ void delete_node(Node* node) {
 
     delete tmp;
 }
+
+} // namespace ch02

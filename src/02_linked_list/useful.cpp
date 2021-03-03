@@ -4,6 +4,8 @@
 
 using namespace std;
 
+namespace ch02 {
+
 Node* create_llist(initializer_list<int> l) {
     Node head;
     Node* last = &head;
@@ -38,3 +40,5 @@ Node* find_tail(Node* lst) {
 
     return tail;
 }
+
+} // namespace ch02
