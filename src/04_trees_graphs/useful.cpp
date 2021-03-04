@@ -62,4 +62,33 @@ Node* CreateSimpleTree(initializer_list<int> l) {
     return root;
 }
 
+Node* CreateAnyTree(initializer_list<int> l) {
+    auto it = begin(l);
+    if (it == end(l) || *begin(l) == NULL_NODE) {
+        return nullptr;
+    }
+
+    queue<Node*> q;
+    Node* root = new Node(*it++);
+    q.push(root);
+
+    while (it != end(l)) {
+        auto node = q.front();
+        q.pop();
+        node->left = (*it == NULL_NODE) ? nullptr : new Node(*it);
+        ++it;
+        q.push(node->left);
+
+        if (it == end(l)) {
+            break;
+        }
+
+        node->right = (*it == NULL_NODE) ? nullptr : new Node(*it);
+        ++it;
+        q.push(node->right);
+    }
+
+    return root;
+}
+
 } // namespace ch04

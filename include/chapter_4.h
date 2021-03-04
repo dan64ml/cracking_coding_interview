@@ -5,6 +5,8 @@
 
 #include <vector>
 #include <initializer_list>
+#include <list>
+#include <limits>
 
 namespace ch04 {
 
@@ -16,8 +18,11 @@ struct Node {
     Node* right = nullptr;
 };
 
+const int NULL_NODE = std::numeric_limits<int>::min();
+
 // From useful.cpp
 Node* CreateSimpleTree(std::initializer_list<int> l);
+Node* CreateAnyTree(std::initializer_list<int> l);
 int GetTreeHeight(Node* root);
 void PrintInOrder(std::vector<int>& v, Node* n);
 
@@ -28,6 +33,8 @@ void BFS(Graph<BFSVertex>& gr, VertexId s);
 bool IsReachable(Graph<BFSVertex> gr, VertexId from, VertexId to);
 
 Node* CreateBalancedTree(const std::vector<int>& vec);
+
+std::vector<std::list<int>> TreeToLists(Node* root);
 
 } // namespace ch04
 
