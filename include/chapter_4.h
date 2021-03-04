@@ -36,6 +36,8 @@ Node* CreateBalancedTree(const std::vector<int>& vec);
 
 std::vector<std::list<int>> TreeToLists(Node* root);
 
+bool IsTreeBalanced(Node* root);
+
 } // namespace ch04
 
 #endif  // CHAPTER_4_H

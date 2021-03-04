@@ -40,7 +40,7 @@ TEST(Ch4Problem3, BalancedTree) {
 }
 
 TEST(Ch4Problem3, UnbalancedTree) {
-    auto t = CreateAnyTree({43,  100, NULL_NODE,   50, 500, NULL_NODE, NULL_NODE,   33, 333});
+    auto t = CreateAnyTree({42,  100, NULL_NODE,   50, 500, NULL_NODE, NULL_NODE,   33, 333});
     auto ret = TreeToLists(t);
 
     EXPECT_EQ(ret.size(), 4);

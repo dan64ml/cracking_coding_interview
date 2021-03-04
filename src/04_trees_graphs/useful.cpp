@@ -75,17 +75,21 @@ Node* CreateAnyTree(initializer_list<int> l) {
     while (it != end(l)) {
         auto node = q.front();
         q.pop();
-        node->left = (*it == NULL_NODE) ? nullptr : new Node(*it);
+        if (node) {
+            node->left = (*it == NULL_NODE) ? nullptr : new Node(*it);
+            q.push(node->left);
+        }
         ++it;
-        q.push(node->left);
 
         if (it == end(l)) {
             break;
         }
 
-        node->right = (*it == NULL_NODE) ? nullptr : new Node(*it);
+        if (node) {
+            node->right = (*it == NULL_NODE) ? nullptr : new Node(*it);
+            q.push(node->right);
+        }
         ++it;
-        q.push(node->right);
     }
 
     return root;

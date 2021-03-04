@@ -77,3 +77,19 @@ TEST(Ch4Useful, CreateAnyTree2) {
     EXPECT_EQ(t2->left->left, nullptr);
     EXPECT_EQ(t2->right->right, nullptr);
 }
+
+TEST(Ch4Useful, CreateAnyTree3) {
+    auto t = CreateAnyTree({10, NULL_NODE, 20,   NULL_NODE, NULL_NODE, 30});
+
+    EXPECT_EQ(t->key, 10);
+    EXPECT_EQ(t->left, nullptr);
+    EXPECT_NE(t->right, nullptr);
+
+    EXPECT_EQ(t->right->key, 20);
+    EXPECT_NE(t->right->left, nullptr);
+    EXPECT_EQ(t->right->right, nullptr);
+
+    EXPECT_EQ(t->right->left->key, 30);
+    EXPECT_EQ(t->right->left->left, nullptr);
+    EXPECT_EQ(t->right->left->right, nullptr);
+}
