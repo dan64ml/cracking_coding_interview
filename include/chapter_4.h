@@ -18,11 +18,21 @@ struct Node {
     Node* right = nullptr;
 };
 
+struct PNode {
+    PNode(int k) : key(k) {}
+    
+    int key;
+    PNode* left = nullptr;
+    PNode* right = nullptr;
+    PNode* parent = nullptr;
+};
+
 const int NULL_NODE = std::numeric_limits<int>::min();
 
 // From useful.cpp
 Node* CreateSimpleTree(std::initializer_list<int> l);
 Node* CreateAnyTree(std::initializer_list<int> l);
+PNode* CreateAnyPTree(std::initializer_list<int> l);
 int GetTreeHeight(Node* root);
 void PrintInOrder(std::vector<int>& v, Node* n);
 
@@ -39,6 +49,8 @@ std::vector<std::list<int>> TreeToLists(Node* root);
 bool IsTreeBalanced(Node* root);
 
 bool IsBST(Node* root);
+
+PNode* GetNextNode(PNode* node);
 
 } // namespace ch04
 

@@ -95,4 +95,43 @@ Node* CreateAnyTree(initializer_list<int> l) {
     return root;
 }
 
+PNode* CreateAnyPTree(initializer_list<int> l) {
+    auto it = begin(l);
+    if (it == end(l) || *begin(l) == NULL_NODE) {
+        return nullptr;
+    }
+
+    queue<PNode*> q;
+    PNode* root = new PNode(*it++);
+    q.push(root);
+
+    while (it != end(l)) {
+        auto node = q.front();
+        q.pop();
+        if (node) {
+            node->left = (*it == NULL_NODE) ? nullptr : new PNode(*it);
+            if (node->left) {
+                node->left->parent = node;
+            }
+            q.push(node->left);
+        }
+        ++it;
+
+        if (it == end(l)) {
+            break;
+        }
+
+        if (node) {
+            node->right = (*it == NULL_NODE) ? nullptr : new PNode(*it);
+            if (node->right) {
+                node->right->parent = node;
+            }
+            q.push(node->right);
+        }
+        ++it;
+    }
+
+    return root;
+}
+
 } // namespace ch04
