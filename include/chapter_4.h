@@ -52,6 +52,8 @@ bool IsBST(Node* root);
 
 PNode* GetNextNode(PNode* node);
 
+std::vector<VertexId> GetOrder(int project_number, const std::vector<std::pair<VertexId, VertexId>>& dep);
+
 } // namespace ch04
 
 #endif  // CHAPTER_4_H

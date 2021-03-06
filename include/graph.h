@@ -9,10 +9,22 @@ namespace ch04 {
 using VertexId = size_t;
 const VertexId NIL = std::numeric_limits<VertexId>::max();
 
+enum class VertexColor {
+    WHITE,
+    GRAY,
+    BLACK
+};
+
 struct BFSVertex {
     bool visited = false;
     VertexId parent = NIL;
     int dist = -1;
+};
+
+template <class T>
+struct DFSVertex {
+    T data;
+    VertexColor color = VertexColor::WHITE;
 };
 
 template<class Vertex>

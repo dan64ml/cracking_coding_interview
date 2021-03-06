@@ -5,9 +5,6 @@
 
 #include "chapter_4.h"
 
-#include <utility>
-#include <limits>
-
 using namespace std;
 
 namespace ch04 {
