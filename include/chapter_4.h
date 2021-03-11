@@ -58,6 +58,8 @@ Node* FindAncestor(Node* root, Node* p, Node* q);
 
 std::vector<std::vector<int>> GetSequences(Node* root);
 
+bool IsSubTree(Node* t1, Node* t2);
+
 } // namespace ch04
 
 #endif  // CHAPTER_4_H
