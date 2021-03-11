@@ -2,6 +2,7 @@
 #define CHAPTER_4_H_
 
 #include "graph.h"
+#include "../src/04_trees_graphs/problem_11.h"
 
 #include <vector>
 #include <initializer_list>
