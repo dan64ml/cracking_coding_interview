@@ -56,6 +56,8 @@ std::vector<VertexId> GetOrder(int project_number, const std::vector<std::pair<V
 
 Node* FindAncestor(Node* root, Node* p, Node* q);
 
+std::vector<std::vector<int>> GetSequences(Node* root);
+
 } // namespace ch04
 
 #endif  // CHAPTER_4_H
