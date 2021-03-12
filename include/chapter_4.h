@@ -61,6 +61,8 @@ std::vector<std::vector<int>> GetSequences(Node* root);
 
 bool IsSubTree(Node* t1, Node* t2);
 
+int CountPaths(Node* root, int target);
+
 } // namespace ch04
 
 #endif  // CHAPTER_4_H
