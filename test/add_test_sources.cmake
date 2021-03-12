@@ -44,3 +44,4 @@ list(APPEND TEST_SOURCES "${CHAPTER_4_PATH}/test_problem_12.cpp")
 
 set(CHAPTER_5_PATH test/05_bits)
 list(APPEND TEST_SOURCES "${CHAPTER_5_PATH}/test_problem_1.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_5_PATH}/test_problem_2.cpp")
