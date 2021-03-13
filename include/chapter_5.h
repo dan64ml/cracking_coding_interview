@@ -8,6 +8,7 @@ namespace ch05 {
 
 uint32_t InsertNumber(uint32_t n, uint32_t m, int i, int j);
 std::string NumToBinary(double num);
+int FindMaxSequence(uint num);
 
 } // namespace ch05
 
