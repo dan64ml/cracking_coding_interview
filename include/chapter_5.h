@@ -3,6 +3,8 @@
 
 #include <cstdint>
 #include <string>
+#include <cstddef>
+#include <vector>
 
 namespace ch05 {
 
@@ -13,7 +15,8 @@ uint GetNext(uint num);
 uint GetPrev(uint num);
 int BitsForChange(int a, int b);
 int SwapEvenOdd(int num);
-
+void DrawLine(std::vector<std::byte>& fb, int width, int x1, int x2, int y);
+void DrawLine2(std::vector<std::byte>& fb, int width, int x1, int x2, int y);
 } // namespace ch05
 
 #endif // CHAPTER_5_H_
