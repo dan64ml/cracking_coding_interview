@@ -2,8 +2,6 @@
 
 #include "gtest/gtest.h"
 
-#include <limits>
-
 using namespace std;
 using namespace ch08;
 

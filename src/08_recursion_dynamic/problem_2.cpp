@@ -66,6 +66,7 @@ bool FindPath(const vector<vector<bool>>& maze, vector<Point>& path) {
 // и дойдет до препятствия. Далее рекурсия вернется в первый столбец на
 // предпоследнюю строку и опять дойдет до препятствия. Но с оптимизацией
 // он не будет исследовать нижние клетки, т.к. они уже посещались...
+// O(r*c).
 bool FindPath2(const vector<vector<bool>>& maze, vector<Point>& path) {
     vector<vector<bool>> mem(maze.size(), vector<bool>(maze.front().size(), false));
     return Helper2(0, 0, maze, path, mem);
