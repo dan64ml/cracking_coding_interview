@@ -50,3 +50,6 @@ list(APPEND TEST_SOURCES "${CHAPTER_5_PATH}/test_problem_4.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_5_PATH}/test_problem_6.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_5_PATH}/test_problem_7.cpp")
 list(APPEND TEST_SOURCES "${CHAPTER_5_PATH}/test_problem_8.cpp")
+
+set(CHAPTER_8_PATH test/08_recursion_dynamic)
+list(APPEND TEST_SOURCES "${CHAPTER_8_PATH}/test_problem_1.cpp")

@@ -16,6 +16,7 @@ add_subdirectory(src/01_arrays_strings/)
 add_subdirectory(src/02_linked_list/)
 add_subdirectory(src/04_trees_graphs/)
 add_subdirectory(src/05_bits/)
+add_subdirectory(src/08_recursion_dynamic/)
 
 set(TEST_SOURCES)
 include(test/add_test_sources.cmake)
@@ -28,5 +29,6 @@ target_link_libraries(cracking_coding_interview
     chapter_2
     chapter_4
     chapter_5
+    chapter_8
 )
 
