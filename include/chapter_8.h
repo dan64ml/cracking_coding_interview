@@ -23,6 +23,7 @@ int Mult(int num1, int num2);
 void Hanoy(std::stack<char>& src, std::stack<char>& dest, std::stack<char>& tmp, int num);
 std::vector<std::string> Permutation(const std::string& str);
 std::vector<std::string> UniquePermutation(const std::string& str);
+std::vector<std::string> GenerateParentheses(int num);
 
 } // namespace ch08
 
