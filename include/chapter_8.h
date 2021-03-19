@@ -18,6 +18,7 @@ bool FindPath(const std::vector<std::vector<bool>>& maze, std::vector<Point>& pa
 bool FindPath2(const std::vector<std::vector<bool>>& maze, std::vector<Point>& path);
 int FindMagicIndex(const std::vector<int>& vec);
 std::vector<std::string> GenerateSubsets(const std::vector<char>& vec);
+int Mult(int num1, int num2);
 
 } // namespace ch08
 
