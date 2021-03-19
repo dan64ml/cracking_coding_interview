@@ -17,6 +17,7 @@ int PathNumber(int n);
 bool FindPath(const std::vector<std::vector<bool>>& maze, std::vector<Point>& path);
 bool FindPath2(const std::vector<std::vector<bool>>& maze, std::vector<Point>& path);
 int FindMagicIndex(const std::vector<int>& vec);
+std::vector<std::string> GenerateSubsets(const std::vector<char>& vec);
 
 } // namespace ch08
 
