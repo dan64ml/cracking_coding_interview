@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include <stack>
 
 namespace ch08 {
 
@@ -19,6 +20,7 @@ bool FindPath2(const std::vector<std::vector<bool>>& maze, std::vector<Point>& p
 int FindMagicIndex(const std::vector<int>& vec);
 std::vector<std::string> GenerateSubsets(const std::vector<char>& vec);
 int Mult(int num1, int num2);
+void Hanoy(std::stack<char>& src, std::stack<char>& dest, std::stack<char>& tmp, int num);
 
 } // namespace ch08
 
