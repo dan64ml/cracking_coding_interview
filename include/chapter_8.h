@@ -26,6 +26,7 @@ std::vector<std::string> UniquePermutation(const std::string& str);
 std::vector<std::string> GenerateParentheses(int num);
 int Change1(int sum);
 int Change2(int sum);
+std::vector<std::vector<int>> AllQueens();
 
 } // namespace ch08
 
