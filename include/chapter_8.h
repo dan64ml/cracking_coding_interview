@@ -24,6 +24,8 @@ void Hanoy(std::stack<char>& src, std::stack<char>& dest, std::stack<char>& tmp,
 std::vector<std::string> Permutation(const std::string& str);
 std::vector<std::string> UniquePermutation(const std::string& str);
 std::vector<std::string> GenerateParentheses(int num);
+int Change1(int sum);
+int Change2(int sum);
 
 } // namespace ch08
 
