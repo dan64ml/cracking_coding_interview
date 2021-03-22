@@ -12,6 +12,12 @@ struct Point {
     int c;
 };
 
+struct Box {
+    int x;
+    int y;
+    int z;
+};
+
 using Color = int;
 
 bool operator==(const ch08::Point& lhs, const ch08::Point& rhs);
@@ -30,6 +36,7 @@ int Change1(int sum);
 int Change2(int sum);
 std::vector<std::vector<int>> AllQueens();
 void FloodFill(std::vector<std::vector<Color>>& img, int row, int col, Color new_color);
+int MaxHeight(std::vector<Box> box);
 
 } // namespace ch08
 
