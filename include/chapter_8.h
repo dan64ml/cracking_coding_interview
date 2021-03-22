@@ -12,6 +12,8 @@ struct Point {
     int c;
 };
 
+using Color = int;
+
 bool operator==(const ch08::Point& lhs, const ch08::Point& rhs);
 
 int PathNumber(int n);
@@ -27,6 +29,7 @@ std::vector<std::string> GenerateParentheses(int num);
 int Change1(int sum);
 int Change2(int sum);
 std::vector<std::vector<int>> AllQueens();
+void FloodFill(std::vector<std::vector<Color>>& img, int row, int col, Color new_color);
 
 } // namespace ch08
 
