@@ -37,6 +37,7 @@ int Change2(int sum);
 std::vector<std::vector<int>> AllQueens();
 void FloodFill(std::vector<std::vector<Color>>& img, int row, int col, Color new_color);
 int MaxHeight(std::vector<Box> box);
+int CountEval(std::string str, bool result);
 
 } // namespace ch08
 
