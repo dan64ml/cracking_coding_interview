@@ -69,3 +69,4 @@ list(APPEND TEST_SOURCES "${CHAPTER_8_PATH}/test_problem_14.cpp")
 
 set(CHAPTER_10_PATH test/10_sort_search)
 list(APPEND TEST_SOURCES "${CHAPTER_10_PATH}/test_problem_1.cpp")
+list(APPEND TEST_SOURCES "${CHAPTER_10_PATH}/test_problem_2.cpp")
