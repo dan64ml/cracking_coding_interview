@@ -9,5 +9,5 @@ add_library(chapter_10
     problem_8.cpp
 #    problem_9.cpp
 #    problem_10.cpp
-#    problem_11.cpp
+    problem_11.cpp
 )
